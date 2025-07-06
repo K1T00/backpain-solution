@@ -28,13 +28,7 @@ img {
 .navbar-nav .nav-item {
     margin-right: 15px; /* Space between nav items */
 }
-/* Optional: Adjust for smaller screens */
-@media (max-width: 991.98px) {
-    .navbar-nav {
-        flex-direction: column; /* Vertical for collapsed state */
-    }
-    .navbar-nav .nav-item {
-        margin-right: 0;
-        margin-bottom: 10px; /* Space between items in collapsed state */
-    }
+h1, h2, h3, h4, h5, h6 {
+    color: #39407e;
+    font-weight: bold;
 }
