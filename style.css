@@ -12,6 +12,7 @@ body {
     max-width: 1000px; /* Slightly wider for content-heavy page */
     margin: 0 auto;
     padding: 40px 20px;
+    font-weight: bold;
 }
 img {
     max-width: 100%;
@@ -27,8 +28,19 @@ img {
 }
 .navbar-nav .nav-item {
     margin-right: 15px; /* Space between nav items */
+    font-weight: bold;
+}
+.navbar-item.active {
+    background-color: #3498db; /* Light blue for active link */
+    color: #ffffff; /* White text for active link */
+    font-weight: bold; /* Ensure active link is bold */
 }
 h1, h2, h3, h4, h5, h6 {
     color: #39407e;
     font-weight: bold;
+}
+
+.home-page .home-image {
+    display: block; /* Makes the image a block element */
+    margin: 0 auto; /* Centers the image horizontally */
 }
