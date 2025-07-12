@@ -107,3 +107,29 @@ h1, h2, h3, h4, h5, h6 {
     color: #4b32b0e1;
     font-weight: bold;
 }
+.prototype-image-legunit {
+       max-width: 50%;
+       height: auto;
+}
+.prototype-image-clamping {
+       max-width: 50%;
+       height: auto;
+}
+.prototype-image-weight {
+       max-width: 50%;
+       height: auto;
+}
+.prototype-image-stabilization {
+       max-width: 50%;
+       height: auto;
+}
+.prototype-image-rotunit{
+       max-width: 50%;
+       height: auto;
+}
+.prototype-image-weight {
+       max-width: 50%;
+       height: auto;
+}
+
+
