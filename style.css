@@ -88,6 +88,21 @@ body {
     display: block;
     margin: 0 auto;
 }
+
+.btn-custom {
+    background-color: #39407e;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 6px;
+    transition: all 0.2s ease;
+}
+
+.btn-custom:hover {
+    background-color: #1abc9c;
+    color: #fff;
+}
+
 h1, h2, h3, h4, h5, h6 {
     color: #4b32b0e1;
     font-weight: bold;
