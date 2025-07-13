@@ -1,13 +1,14 @@
 .hero {
     text-align: center;
-    padding: 50px 20px;
+    padding: 40px 20px;
     background-color: #f8f9fa;
 }
 .content {
     max-width: 1000px;
-    margin: 0 auto;
-    padding: 40px 20px;
+    margin-left: auto;
+    margin-right: auto;
     font-weight: bold;
+    
 }
 img {
     max-width: 100%;
@@ -84,6 +85,11 @@ body {
     color: white;
 }
 */
+.home-page .HomeMainImage {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 20px; /* Add consistent spacing below the image */
+}
 .home-page .home-image {
     display: block;
     margin: 0 auto;
@@ -107,3 +113,37 @@ h1, h2, h3, h4, h5, h6 {
     color: #4b32b0e1;
     font-weight: bold;
 }
+.prototype-image-goal {
+       max-width: 75%;
+       height: auto;
+}
+.prototype-image-foot {
+       max-width: 50%;
+       height: auto;
+}
+.prototype-image-legUnit {
+       max-width:60%;
+       height: auto;
+}
+.prototype-image-clamping {
+       max-width: 60%;
+       height: auto;
+}
+.prototype-image-weight {
+       max-width: 60%;
+       height: auto;
+}
+.prototype-image-stabilization {
+       max-width: 50%;
+       height: auto;
+}
+.prototype-image-rotunit{
+       max-width: 50%;
+       height: auto;
+}
+.meme-image {
+    max-width: 20%;
+    height: auto;
+    margin-left: 330px;
+}
+
