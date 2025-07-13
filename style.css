@@ -69,23 +69,19 @@ a:hover {
 .navbar {
     position: sticky;
     top: 0;
-    z-index: 1000; /* Stay above other elements */
-    background-color: rgba(255, 255, 255, 0.9); /* Light background with translucency */
-    backdrop-filter: blur(8px); /* Optional: adds blur behind the navbar */
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    z-index: 1000;
+    background-color: rgba(255, 255, 255, 0.9);
+    backdrop-filter: blur(8px);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
     transition: background-color 0.3s ease;
 }
 body {
     padding-top: 20px;
 }
-.home-page .HomeMainImage {
-    display: block;
-    margin: 0 auto;
-    margin-bottom: 20px; /* Add consistent spacing below the image */
-}
 .home-page .home-image {
     display: block;
     margin: 0 auto;
+     max-width: 40%;
 }
 .btn-custom {
     background-color: #39407e;
@@ -136,4 +132,44 @@ h1, h2, h3, h4, h5, h6 {
     height: auto;
     margin-left: 330px;
 }
+
+
+.science-image-herniateddisc{
+       max-width: 60%;
+       height: auto;
+}
+.science-image-fackmuscles{
+       max-width: 90%;
+       height: auto;
+}
+.science-image-multifidi{
+       max-width: 30%;
+       height: auto;
+}
+.science-image-formula{
+       max-width: 80%;
+       height: auto;
+}
+.science-image-formulabook{
+       max-width: 70%;
+       height: auto;
+}
+.science-image-leverlaw{
+       max-width: 60%;
+       height: auto;
+}
+.science-image-equipment{
+       max-width: 50%;
+       height: auto;
+}
+
+.science-image-messung1{
+       max-width: 50%;
+       height: auto;
+}
+.science-image-messung2{
+       max-width: 50%;
+       height: auto;
+}
+
 
